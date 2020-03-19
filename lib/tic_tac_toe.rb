@@ -105,7 +105,7 @@ def over?(board)
   end
 end
 
-def winner (board)
+def winner(board)
   index = []
   index = won?(board)
   if index == false
@@ -118,6 +118,5 @@ def winner (board)
 end
 
 def play(board)
-  until over?(board) == true
-    turn(board)
+
 end
