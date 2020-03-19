@@ -128,4 +128,6 @@ def play(board)
     puts "Congratulations O!"
   else
     puts "Cat's Game!"
+    end
+  end
 end
